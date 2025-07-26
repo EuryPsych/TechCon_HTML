@@ -4,6 +4,20 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>About TechCon 2024</title>
+    <style>
+        .speakers-container {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+        }
+        .speaker {
+            width: 200px;
+        }
+        img {
+            max-width: 100%;
+            height: auto;
+        }
+    </style>
 </head>
 <body>
     <header>
@@ -42,20 +56,22 @@
 
         <article>
             <h2>Past Notable Speakers</h2>
-            <div>
-                <img src="images/speaker1.jpg" alt="Dr. Sarah Chen, AI Researcher" width="200">
-                <h3>Dr. Sarah Chen</h3>
-                <p>Pioneer in ethical AI frameworks and machine learning applications in healthcare (TechCon 2022)</p>
-            </div>
-            <div>
-                <img src="images/speaker2.jpg" alt="Mark Johnson, Blockchain Expert" width="200">
-                <h3>Mark Johnson</h3>
-                <p>Leading authority on decentralized systems and blockchain infrastructure (TechCon 2021, 2023)</p>
-            </div>
-            <div>
-                <img src="images/speaker3.jpg" alt="Priya Patel, Quantum Computing Specialist" width="200">
-                <h3>Priya Patel</h3>
-                <p>Breakthrough research in quantum algorithms and their commercial applications (TechCon 2020)</p>
+            <div class="speakers-container">
+                <div class="speaker">
+                    <img src="images/speaker1.jpg" alt="Dr. Sarah Chen, AI Researcher">
+                    <h3>Dr. Sarah Chen</h3>
+                    <p>Pioneer in ethical AI frameworks and machine learning applications in healthcare (TechCon 2022)</p>
+                </div>
+                <div class="speaker">
+                    <img src="images/speaker2.jpg" alt="Mark Johnson, Blockchain Expert">
+                    <h3>Mark Johnson</h3>
+                    <p>Leading authority on decentralized systems and blockchain infrastructure (TechCon 2021, 2023)</p>
+                </div>
+                <div class="speaker">
+                    <img src="images/speaker3.jpg" alt="Priya Patel, Quantum Computing Specialist">
+                    <h3>Priya Patel</h3>
+                    <p>Breakthrough research in quantum algorithms and their commercial applications (TechCon 2020)</p>
+                </div>
             </div>
         </article>
     </main>
